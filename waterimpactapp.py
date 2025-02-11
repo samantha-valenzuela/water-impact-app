@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Título de la app
-st.title("📊 Gráfico Interactivo con Desplegables")
+st.title("Water Impact App")
 
 # Subir archivo XLSX
 uploaded_file = st.file_uploader("Sube tu archivo Excel (.xlsx)", type=["xlsx"])
